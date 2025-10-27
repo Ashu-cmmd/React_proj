@@ -30,7 +30,7 @@ function App() {
     window.navigator.clipboard.writeText(password)
   } ,[password])
 
-  useEffect(() => { // It will rerun the page if any effect / changes will there in the dependencese array.. 
+  useEffect(() => { // It will re-run the page if any effect / changes will there in the dependencese array.. 
     passwordGenerator( )
   } ,[length ,numAllowed , charAllowed , passwordGenerator]) // if there is any change in this function run the program again 
 
