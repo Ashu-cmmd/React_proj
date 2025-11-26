@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Make navbar always visible on laptop-size half screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    display: block !important;
+  }
+}
